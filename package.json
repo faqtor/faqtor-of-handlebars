@@ -1,0 +1,43 @@
+{
+  "name": "faqtor-of-handlebars",
+  "version": "0.0.1",
+  "description": "Handlebars plugin for the Faqtor build system",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/faqtor/faqtor-of-handlebars"
+  },
+  "license": "MIT",
+  "keywords": [
+    "handlebars",
+    "build",
+    "make",
+    "task",
+    "build automation"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.es.js",
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "fqr build",
+    "clean": "fqr clean",
+    "pub": "fqr publish"
+  },
+  "author": "Osman Bineev",
+  "devDependencies": {
+    "cash-mv": "^0.2.0",
+    "faqtor": "0.0.6",
+    "faqtor-of-publish": "0.0.1",
+    "fqr": "0.0.3",
+    "rimraf": "^2.6.2",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/handlebars": "^4.0.40",
+    "@types/node": "^10.12.18",
+    "handlebars": "^4.0.12"
+  }
+}
